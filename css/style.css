@@ -1,0 +1,92 @@
+html{
+    max-width: 1440px;
+    font-family: 'Mulish';
+}
+body{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+}
+/* Header Section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    width: 100%;
+}
+nav h3{
+    width: 270px;
+}
+nav h3 span{
+    color: #FF5400;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+}
+.logo img{
+    margin-right: 16px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 44px;
+    color: #424247;
+    font-size: 1.13rem;
+}
+nav ul li:first-child{
+    color: #FF5400;
+}
+/* Banner Section */
+.banner{
+    background-image: url("../images/banner.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner-hearder{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+.banner-text{
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 26px; 
+    padding: 24px 247px;
+}
+.banner-search{
+    padding-bottom: 106px;
+}
+.banner-item{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-item input, select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 24px;
+    text-align: center;
+}
