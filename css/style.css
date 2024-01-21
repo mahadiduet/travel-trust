@@ -61,9 +61,14 @@ nav ul li{
 nav ul li:first-child{
     color: #FF5400;
 }
+.mobile-menu{
+    display: none;
+}
+
 /* Banner Section */
 .banner{
     background-image: url("../images/banner.png");
+    background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -99,6 +104,7 @@ nav ul li:first-child{
     margin-right: 24px;
     text-align: center;
 }
+
 /* Popular Section */
 .popular-tour{
     width: 95%;
@@ -236,6 +242,30 @@ nav ul li:first-child{
     display: flex;
     gap: 24px;
 }
+.newsletter-image img{
+    width: 625px;
+    height: 427px;
+}
+.image-text-block{
+    background-color: #FF5400;
+    width: 325px;
+    height: 120px;
+    position: relative;
+    border-radius: 16px;
+    right: -295px;
+    transform: rotate(-22deg);
+    bottom: 200px;
+}
+.image-text-block-1{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.image-text-block-2{
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+}
 .subscriber{
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -276,4 +306,126 @@ nav ul li:first-child{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+}
+@media screen and (max-width:600px) {
+    .menu{display: none;}
+    .mobile-menu{display: block;}
+    .banner{
+        background-size: auto;
+        height: 490px;
+    }
+    .banner-item{
+        width: 270px;
+        padding: 24px;
+    }
+    .banner-hearder{
+        font-size: 3rem;
+        padding-top: 25px;
+    }
+    .banner-text{
+        font-size: .8rem;
+        padding: 10px 160px;
+    }
+    .banner-item input{
+        width: 250px;
+        margin-bottom: 16px;
+    }
+    .banner-item select{
+        width: 250px;
+        margin-bottom: 16px;
+    }
+    .banner-item button{
+        width: 250px;
+        margin-bottom: 16px;
+    }
+    .popular-tour{
+        margin-top: 20PX;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .popular-tour-text button{
+        margin-top: 10px;
+    }
+    .popular-tour-text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .destination-text{
+        width: 450px;
+    }
+    .row1{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .row2{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .row2 img{
+        width: 100%;
+    }
+    .row3{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .row3 img{
+        width: 100%;
+    }
+    .choose-tour-text{
+        width: 450px;
+    }
+    .choose-row1{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .price-tag{
+        width: 88%;
+    }
+    .place{
+        flex-direction: column;
+    }
+    .place-tour-text{
+        width: 100%;
+        margin: 0px 20px;
+    }
+    .place-tour-image{
+        width: 95%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+    .place-tour-image img{
+        width: 100%;
+    }
+    .subscriber{
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .subscriber input{
+        align-self: center;
+    }
+    .subscriber button{
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .subscriber p{
+        padding-left: 20px;
+    }
+    .image-text-block{
+        right: -230px;
+        margin-bottom: -200px;
+    }
+    .newsletter-image img{
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .footer p{
+        width: 400px;
+    }
 }
