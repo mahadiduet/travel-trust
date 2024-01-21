@@ -94,8 +94,9 @@ nav ul li:first-child{
     width: 820px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px 0px;
 }
-.banner-item input, select{
+.banner-item input,select{
     width: 174px;
     height: 52px;
     border-radius: 8px;
